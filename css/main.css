@@ -17,6 +17,20 @@ html {
   line-height: 1.4;
 }
 
+body{
+ 
+  /*color: #0250c3;*/ 
+  font-size:60px;
+  text-align: center; 
+
+  font-weight: 900;
+  /*background-color: #ffe053;*/
+}
+
+.row{
+  size: 100px;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -97,8 +111,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+font-family: 'Lexend Deca', sans-serif;
+text-align:  center;
+size: 200px;
+  }
 
-/* ==========================================================================
+
+.contact img{
+  width: 50px;
+}
+
+.contact {
+  margin: 10px auto;
+}
+
+.logo  img {
+  width: 150px;
+  resize: 100px;
+}
+
+.rectangulo {
+     width: 1200px; 
+     height: 600px; 
+     padding: 250px ;
+     margin: 10px 100px;
+
+     background: #C7D3D3
+}
+
+.logo {
+  width: 200px;
+
+}
+
+
+
+  /* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -260,6 +309,7 @@ textarea {
   }
   h2,
   h3 {
+   
     page-break-after: avoid;
   }
 }
