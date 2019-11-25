@@ -27,9 +27,68 @@ body{
   /*background-color: #ffe053;*/
 }
 
-.row{
-  size: 100px;
+.mainwrapper {
+ display: flex;
+ flex-direction: column;
 }
+.container-fluid{
+  padding-right: 100px;
+  padding-left: 830px;
+  justify-content: space-between;  
+   margin-top: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.container-fluid .botones{
+  font-size: 19px;
+  background-color: white;
+}
+
+.container-fluid .botones:hover{
+  transition: 1s;
+  background-color: rgb(255,105,201);
+  cursor: pointer;
+}
+
+
+.container-fluid2 .botones-proyectos{
+  font-size: 19px;
+  background-color: white;
+  height: 200px;
+
+
+}
+
+.container-fluid2 .botones-proyectos:hover{
+  transition: 1s;
+  background-color: rgb(255,229,41);
+  cursor: pointer;
+}
+
+
+ 
+.row{
+  margin-top: 75px;
+   height: 500px;
+   align-items: center;
+  size: 100px;
+  display: flex;
+  justify-content: center; 
+}
+
+.row .inicio {
+  padding-right: 120px;
+}
+
+.row .diseño {
+  padding-right: 120px;
+}
+
+.row .pau {
+  padding-right: 120px;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -114,36 +173,9 @@ textarea {
 body{
 font-family: 'Lexend Deca', sans-serif;
 text-align:  center;
-size: 200px;
+
   }
 
-
-.contact img{
-  width: 50px;
-}
-
-.contact {
-  margin: 10px auto;
-}
-
-.logo  img {
-  width: 150px;
-  resize: 100px;
-}
-
-.rectangulo {
-     width: 1200px; 
-     height: 600px; 
-     padding: 250px ;
-     margin: 10px 100px;
-
-     background: #C7D3D3
-}
-
-.logo {
-  width: 200px;
-
-}
 
 
 
